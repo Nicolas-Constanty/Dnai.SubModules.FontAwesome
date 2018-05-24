@@ -1,0 +1,14 @@
+module Dnai.FontAwesome
+ButtonAwesome 1.0 ButtonAwesome.qml
+ButtonAwesomeBrand 1.0 ButtonAwesomeBrand.qml
+ButtonAwesomeSolid 1.0 ButtonAwesomeSolid.qml
+LabelAwesome 1.0 LabelAwesome.qml
+LabelAwesomeBrand 1.0 LabelAwesomeBrand.qml
+LabelAwesomeSolid 1.0 LabelAwesomeSolid.qml
+TextAwesome 1.0 TextAwesome.qml
+TextAwesomeBrand 1.0 TextAwesomeBrand.qml
+TextAwesomeSolid 1.0 TextAwesomeSolid.qml
+plugin dnaifontawesomeplugin
+classname DnaiFontAwesomePlugin
+typeinfo plugins.qmltypes
+designersupported

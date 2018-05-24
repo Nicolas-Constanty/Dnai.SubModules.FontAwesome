@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fa5.otf</file>
+        <file>faBrand5.otf</file>
+        <file>faSolid5.otf</file>
+        <file>LabelAwesome.qml</file>
+        <file>LabelAwesomeBrand.qml</file>
+        <file>LabelAwesomeSolid.qml</file>
+        <file>TextAwesome.qml</file>
+        <file>TextAwesomeBrand.qml</file>
+        <file>TextAwesomeSolid.qml</file>
+        <file>ButtonAwesome.qml</file>
+        <file>ButtonAwesomeBrand.qml</file>
+        <file>ButtonAwesomeSolid.qml</file>
+    </qresource>
+</RCC>
