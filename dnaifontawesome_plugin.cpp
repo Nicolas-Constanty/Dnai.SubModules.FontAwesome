@@ -15,6 +15,7 @@ void DnaiFontAwesomePlugin::registerTypes(const char *uri)
 //    family = QFontDatabase::applicationFontFamilies(id).at(0);
 //    qDebug() << family;
     id = QFontDatabase::addApplicationFont(":/faSolid5.otf");
+    Q_UNUSED(id)
 //    family = QFontDatabase::applicationFontFamilies(id).at(0);
 //    qDebug() << family;
 }
