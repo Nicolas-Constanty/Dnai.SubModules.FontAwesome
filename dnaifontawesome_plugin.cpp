@@ -9,14 +9,13 @@ void DnaiFontAwesomePlugin::registerTypes(const char *uri)
     // @uri com.saltystudio.fontawesomecomponent
     Q_ASSERT(uri == QLatin1String("Dnai.FontAwesome"));
     auto id = QFontDatabase::addApplicationFont(":/fa5.otf");
-//    QString family = QFontDatabase::applicationFontFamilies(id).at(0);
-//    qDebug() << family;
+    QString family = QFontDatabase::applicationFontFamilies(id).at(0);
+    qDebug() << "Dnai.FontAwesome successfully loaded" << family;
     id = QFontDatabase::addApplicationFont(":/faBrand5.otf");
-//    family = QFontDatabase::applicationFontFamilies(id).at(0);
-//    qDebug() << family;
+    family = QFontDatabase::applicationFontFamilies(id).at(0);
+    qDebug() << "Dnai.FontAwesome successfully loaded" << family;
     id = QFontDatabase::addApplicationFont(":/faSolid5.otf");
-    Q_UNUSED(id)
-//    family = QFontDatabase::applicationFontFamilies(id).at(0);
-//    qDebug() << family;
+    family = QFontDatabase::applicationFontFamilies(id).at(0);
+    qDebug() << "Dnai.FontAwesome successfully loaded" << family;
 }
 
