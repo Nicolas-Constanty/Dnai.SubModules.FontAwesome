@@ -10,12 +10,12 @@ void DnaiFontAwesomePlugin::registerTypes(const char *uri)
     Q_ASSERT(uri == QLatin1String("Dnai.FontAwesome"));
     auto id = QFontDatabase::addApplicationFont(":/fa5.otf");
     QString family = QFontDatabase::applicationFontFamilies(id).at(0);
-    qDebug() << "Dnai.FontAwesome 1.0 successfully loaded" << family << "font";
+    qDebug() << "==FontAwesomePlugin== Dnai.FontAwesome 1.0 successfully loaded" << family << "font";
     id = QFontDatabase::addApplicationFont(":/faBrand5.otf");
     family = QFontDatabase::applicationFontFamilies(id).at(0);
-    qDebug() << "Dnai.FontAwesome 1.0 successfully loaded" << family << "font";
+    qDebug() << "==FontAwesomePlugin== Dnai.FontAwesome 1.0 successfully loaded" << family << "font";
     id = QFontDatabase::addApplicationFont(":/faSolid5.otf");
     family = QFontDatabase::applicationFontFamilies(id).at(0);
-    qDebug() << "Dnai.FontAwesome 1.0 successfully loaded" << family << "font";
+    qDebug() << "==FontAwesomePlugin== Dnai.FontAwesome 1.0 successfully loaded" << family << "font";
 }
 
