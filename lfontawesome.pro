@@ -5,6 +5,9 @@ QT += quick
 CONFIG += c++11
 
 TARGET  = dnaifontawesomeplugin
+CONFIG(release, debug|release) {
+DEFINES += QT_NO_DEBUG_OUTPUT
+}
 
 RESOURCES += qml.qrc
 
