@@ -9,7 +9,7 @@ CONFIG(release, debug|release) {
 DEFINES += QT_NO_DEBUG_OUTPUT
 }
 
-RESOURCES += qml.qrc
+RESOURCES = qml.qrc
 
 pluginfiles.files += \
     LabelAwesome.qml \

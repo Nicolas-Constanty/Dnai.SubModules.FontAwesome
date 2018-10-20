@@ -1,8 +1,19 @@
 
-*.filters
+\.vs/
 
-*.vcxproj
+release/
 
 debug/
 
-release/
+*.Release
+
+*.vcxproj
+
+*.filters
+
+*.user
+
+*.ltheme
+
+*.Debug
+Makefile\.lfontawesome
